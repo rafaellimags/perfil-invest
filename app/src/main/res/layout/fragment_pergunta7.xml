@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary"
+    tools:context=".Pergunta7">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="Em relação as aplicações e rendimentos, em qual dessas situações você   se enquadra? "
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPergunta7"
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/light_blue_A400"
+        android:text="Próxima"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup7"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <RadioButton
+            android:id="@+id/g7opt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conto com o rendimento dessas aplicações para complementar minha  renda mensal "
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/g7opt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Eventualmente posso resgatar parte das aplicações para fazer frente aos  meus gastos. Contudo, não tenho intenção de resgatar no curto prazo e  pretendo fazer aplicações regulares"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/g7opt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text=" Não tenho intenção de resgatar no curto prazo, mas não pretendo realizar  novas aplicações"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/g7opt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Não tenho intenção de resgatar no curto prazo e ainda pretendo fazer  aplicações regulares"
+            android:textColor="@color/white" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

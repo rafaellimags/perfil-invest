@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary"
+    tools:context=".Resultado">
+
+    <TextView
+        android:id="@+id/resultadoEdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:hint="Nome"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtResultadoPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:hint="Resultado Perfil"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultadoEdt" />
+
+    <Button
+        android:id="@+id/btnRefazer"
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/light_blue_A400"
+        android:text="Refazer Teste"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultadoPerfil" />
+</androidx.constraintlayout.widget.ConstraintLayout>
